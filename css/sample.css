@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 32px;
+  width: 100%;
+  background: url(../img/library.jpg) center center / cover no-repeat fixed;
+}
+header {
+  background-color: #6b493d;
+  text-align: center;
+  opacity: 0.5;
+}
+
+h1 {
+  font-size: 150%;
+  color: white;
+  opacity: 1;
+}
+
+main {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+footer {
+  background-color: #fff;
+  text-align: center;
+  opacity: 0.7;
+}
+
+ul {
+  padding: 0;
+  border-top: 1px solid #000000;
+  display: flex; /* 定義 */
+  justify-content: center;
+  table-layout: fixed;
+  width: 50%;
+  font-size: 80%;
+  margin: auto;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  border: 1px solid #666;
+  background-color: #fff;
+  display: table-cell; /* 定義 */
+  cursor: pointer;
+  color: #0d7dfd;
+}
+
+li:hover {
+  background: #4D1A06;
+  color: #fff;
+}
+textarea {
+  margin: 10px 3%;
+  width: 95%;
+  height: 100px;
+  font-size: 80%;
+  box-shadow: 3px 3px 3px 3px #555;
+  background-color: rgb(241, 239, 239);
+  opacity: 0.8;
+}
+#key {
+  margin: 0 3%;
+  width: 95%;
+  font-size: 80%;
+  background-color: #ebddbc;
+  box-shadow: 3px 3px 3px 3px #555;
+}
+table {
+  margin: 20px 3%;
+  border: 3px solid #333c5e;
+  width: 96%;
+}
+th {
+  width: 30%;
+  font-size: 24px;
+  background-color: #ebddbc;
+  opacity: 0.85;
+
+}
+td {
+  font-size: 16px;
+  background-color: rgb(241, 239, 239);
+  opacity: 0.85;
+}
+input {
+  margin: 10px 3%;
+  width: 95%;
+  height: 40px;
+  font-size: 80%;
+  opacity: 0.8;
+}
+
+.input_1{
+  background:  #6b493d;
+  border: none;
+  color: white;
+  font-size:25px;
+  font-weight:bold;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+  box-shadow: 0 7px #4D1A06;
+  border-radius: 6px;
+  width: 200px;
+}
+
+#element1{
+  font-weight: bold;
+  background-color:#eedcb3;
+  text-align: center;
+  background: #ebddbc;
+  border: none;
+  color: black;
+  font-size:25px;
+  font-weight:bold;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  cursor: pointer;
+  border-radius: 2px;
+  width: 400px;
+  height: 40px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.element_area{
+  margin-top: 50px;
+  display: flex;
+}
+
+.search_area{
+  justify-content: center;
+  text-align: center;
+  width: 2000px;
+}
+
+.form{
+  display: none;
+  margin-top: 30px;
+}
